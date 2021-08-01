@@ -1,0 +1,55 @@
+title: Coding Romance
+html_title: >-
+  <span class="blue">Coding</span><span class="red">Romance</span>&nbsp;
+year: 2021
+email: codingromance@gmail.com
+description: >-
+  Help you to fall in love with Coding
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://codingromance.org" # the base hostname & protocol for your site, e.g. http://example.com
+image_base_url: /assets/img
+author: BRG
+author_url: https://freelancerbrg.com
+repo: https://github.com/codingromance/codingromance.org
+
+twitter_username: coolbrg
+github_username:  coolbrg
+
+google_analytics: # your google analytics id
+
+permalink: /:title
+
+collections:
+  html-css-js:
+    output: true
+    permalink: /html-css-js/:title
+
+contacts:
+  facebook:
+    url: https://www.facebook.com/brgurukul
+    label: Facebook
+    class: bx bxl-facebook
+  twitter:
+    url: https://twitter.com/coolbrg/
+    label: Twitter
+    class: bx bxl-twitter
+    username: "@coolbrg"
+  github:
+    url: https://github.com/brgurukul/
+    label: GitHub
+    class: bx bxl-github
+  linkedin:
+    url: https://www.linkedin.com/company/brgurukul
+    label: LinkdIn
+    class: bx bxl-linkedin
+  email:
+    url: mailto:brg@brgurukul.org
+    label: Email
+    class: bx bx-mail-send
+  # youtube:
+  #   url: https://www.youtube.com/channel/UC8p8tlnY5fykNYv2vZHvQDg
+  #   label: YouTube Channel
+  #   class: bx bxl-youtube
+
+# Build settings
+markdown: kramdown
