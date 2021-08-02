@@ -43,24 +43,28 @@ div.language-js::before    { content: "JavaScript"; }
 div.language-python::before { content: "Python"; }
 
 // ------ Coding Romance body ------
-section img {
-  max-width: 100%;
-  display: block;
-  margin-bottom: 20px;
-}
+.coding-romance-page {
+  .coding-romance-content {
+    section img {
+      max-width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
 
-section h2 {
-  margin: 40px 0 16px;
-  border-bottom: solid 1px #eaecef;
-  padding-bottom: 0.3em;
-  line-height: 1.25;
-}
+    section h2 {
+      margin: 40px 0 16px;
+      border-bottom: solid 1px #eaecef;
+      padding-bottom: 0.3em;
+      line-height: 1.25;
+    }
 
-section h3 { margin: 30px 0 14px; }
+    section h3 { margin: 30px 0 14px; }
 
-section pre {
-  margin: 0;
-  border: 0;
+    section pre {
+      margin: 0;
+      border: 0;
+    }
+  }
 }
 
 $codeblock-padding: 5px !default;

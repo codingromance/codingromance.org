@@ -20,9 +20,12 @@ google_analytics: # your google analytics id
 permalink: /:title
 
 collections:
-  html-css-js:
+  web:
     output: true
-    permalink: /html-css-js/:title
+    permalink: /web/:title
+  programming:
+    output: true
+    permalink: /programming/:title
 
 contacts:
   facebook:

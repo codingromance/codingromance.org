@@ -1,5 +1,5 @@
 ---
-layout: romance
+layout: coding-romance
 title: I Love Coding
 description: >-
   A simple tutorial to make three magical words "I Love Coding"
